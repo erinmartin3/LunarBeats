@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Styles.css">
+    <link rel="icon" href="/assets/img/favicon.jpg" type="image/lunarlogo">
+    <link rel="shortcut icon" href="/assets/img/favicon.jpg" type="image/lunarlogo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lunar Beats Music Festival</title>
+</head>
+<body>
+
+<header>
+    <nav class="menu">
+        <div class="container">
+            <a class="navbarlogo" href="lunarHomepage.html">
+                <img src="assets/img/logowhite.png" alt="logo" class="logo-1">
+            </a>
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="lunarHomepage.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="artistGenerator.html">Artists</a></li>
+                <li class="nav-item"><a class="nav-link" href="lunarTickets.html">Tickets</a></li>
+                <li class="nav-item"><a class="nav-link" href="lunarFAQ.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="lunarContact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="ContactForm">
+
+    <script src="assets/js/LunarBeats.js"></script>
+
+    <form id="myForm2" onsubmit="showThankYouPopup2(event)"action="lunarHomepage.html" method="post">        <label for="name">Name:</label>
+
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="51" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+<footer class="footer1">
+    <p>&copy; 2023 Lunar Beats Music Festival</p>
+</footer>
+
+</body>
+</html>
